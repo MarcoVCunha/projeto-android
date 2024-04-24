@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url(../fontes/android.otf) format(opentype), url(Fontes/android.OTF) format(truetype); 
+    /*"../" serve para sair da pasta que o style.css está (por exemplo) para acessar outra pasta*/
+}
+/*
+*{
+    margin: 0px;
+    padding: 0px;
+} "*" serve pra mudar o estilo do html inteiro
+*/
+strong{
+    color: #227044;
+}
+body{
+    background-color: #84E1AD;
+    background-image: linear-gradient(to right, #84E1AD, #68b188);
+}
+span .img.container{
+    
+    display: block;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2DA060, rgb(63, 105, 81));
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2.5px 2px 20px #000000;
+}
+header > h1{
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.253);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+header > p{
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.452);
+}
+header nav ul{
+    text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.452);
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: rgba(63, 105, 81, 0);
+    padding: 10px;
+    border-radius:10px;
+}
+header a:hover{
+    background-color: rgba(104, 143, 121, 0.5);
+    padding: 20px;
+    border-radius:10px;
+
+}
+div{
+    background-color: white;
+    padding: 20px;
+    color: black;
+    text-align: unset;
+    box-shadow: 2px 2px 10px #000000;
+    text-indent: 2em;
+    line-height: 2em;
+    border-radius:0px 0px 5px 5px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+div h1{
+    color: #165934;
+    font-family: 'android';
+    text-shadow:0.1em 0.1em 0.1em #00000038;
+    font-weight: bold;
+    font-style: normal;
+}
+.h1pri{
+    text-align: center;
+    font-size: 35px;
+}
+div a{
+    color: #227044;
+    text-decoration: none;
+    font-weight: bold;
+}
+div a:hover{
+    background-color: #165934;
+    color: white;
+    border-radius:10px;
+}
+div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+div h2{
+    color: #165934;
+    background-image: linear-gradient(to right, #C5EBD5, rgb(255, 255, 255));
+    border-radius:10px;
+    font-family: 'android';
+    font-weight: bold;
+    font-style: normal;
+}
+section{
+    position: relative;
+    background-color: #1A5A37;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    margin: 0px;
+    border-radius:5px;
+}
+.video iframe{
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    width: 90%;
+    height: 95%;
+}
+aside{
+    background-color: #C5EBD6;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.400);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:5px 5px 5px 5px;
+}
+.finalh1 {
+    background-color: #2FA866;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:5px 5px 0px 0px;
+    color: white;
+    padding: 10px;
+} 
+div aside p{
+    padding: 20px;
+}
+aside ul {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+abbr{
+    text-decoration: underline dotted;
+}
+.ptfn{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #1A5C38;
+    color: white;
+    padding: 10px;
+}
+.stfn{
+    color: white;
+    font-weight: bolder;
+}
